@@ -1,0 +1,69 @@
+body{
+    
+    background-image:url('images/background.jpg');
+}
+
+
+p { color: blue;
+    padding:10px;
+    margin: 5px;
+    } 
+
+.container{
+    background: white;
+    border-radius: 20px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.8;
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.header{
+    padding-top:25px;
+    text-align: center;
+    height:100px;
+    text-decoration: underline;
+    border-bottom: 1px solid black;
+}
+.navi{
+    border-right: 1px solid black;
+    width:120px;
+    padding:15px;
+    margin:auto;
+    float:left;
+    
+}
+.main{
+    width:600px;
+    padding:15px;
+    margin-left:60px;
+    margin-right:auto;
+    margin-top:20px;
+    float:left;
+
+}
+
+#error{
+    color:red;
+}
+
+h1{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    }
+
+
+.clear:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clear {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clear {height: 1%;}
+.clear {display: block;}
+/* End hide from IE-mac */
